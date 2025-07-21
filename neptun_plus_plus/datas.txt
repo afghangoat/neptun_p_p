@@ -1,0 +1,4 @@
+NPU:
+- aria-labelledby="ui-id-1" <popup>
+- vizsga idő kalkulátor
+- autó órarend felvevő
