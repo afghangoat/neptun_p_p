@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Neptun++",
+  "version": "1.0",
+  "description": "A kulcs a jobb élményhez!",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["*://neptun.bme.hu/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://neptun.bme.hu/*"],
+      "js": ["utils.js","storage.js","content.js","config.js"]
+    }
+  ]
+}
